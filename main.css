@@ -1,0 +1,28 @@
+nav {
+	float: left;
+	width: 20%;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+nav li {
+	padding: 0.5em 0 0.5em 0;
+}
+nav a {
+	text-decoration: none;
+}
+#detail {
+	padding-left: 20%;
+	width: 40%;
+}
+#detail h2 {
+	text-align: center;
+}
+#detail img {
+	float: left;
+}
+#detail p {
+	width: 300px;
+	padding-left: 300px;
+}
