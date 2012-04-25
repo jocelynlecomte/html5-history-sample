@@ -18,8 +18,11 @@
 			<?php
 				if (isset($_GET['page'])) {
             		$page = $_GET['page'];
-        			include_once('includes/' . $page . '.php');
         		}
+        		else {
+		            $page = 'home';
+		        }
+		        include_once('includes/' . $page . '.php');
 			?>
 		</div>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
